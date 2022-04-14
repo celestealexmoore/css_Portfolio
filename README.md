@@ -23,7 +23,13 @@
 
 ## Media
 
-![Photo 1](./assets/photos/screenshot.png)
+Example Image to Replicate:  
+
+![Photo 1](./assets/photos/examplePhoto.png)  
+
+What I've produced:  
+
+![Photo 1](./assets/photos/screenshot.png)  
 
 ## Deployed Site
 
