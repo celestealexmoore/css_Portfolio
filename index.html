@@ -13,62 +13,66 @@
 
     <header>
 
-        <div id="name">
-            Sean L. Francis
+        <div id="name" class="highlighted">
+            <h1><span>Sean L. Francis</span></h1>
         </div>
 
         <nav>
             <ul>
-                <li>About Me</li>
-                <li>Work</li>
-                <li>Contact Me</li>
-                <li>Resume</li>
+                <li><a href="#aboutMeParent">About Me</li>
+                <li><a href="#workParent">Work</a></li>
+                <li><a href="#footerParent">Contact</a></li>
+                <li><a href="#">Resume</a></li>
             </ul>
         </nav>
 
     </header>
 
     <section id="tagline">
-        <div><img src="./assets/photos/taglinePhoto.png"></div>
-        <div id = "subtitle">Back-End Developer</div>
-    </div>
+        <div id="subtitle"><span><h1>Back-End Developer</h1></span></div>
+    </section>
     
     <main>
-        
-        This div holds the about me, work and contact sections.
-        
-        <section id="aboutMeParent">
+
+        <section id="aboutMeParent" class="parentDiv">
             
-            <h1>About Me</h1>
+            <div class="sectionTitle">
+                <h1>About Me</h1>
+            </div>
             
-            <p>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore 
-                magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                exercitation ullamco laboris nisi ut aliquip ex ea c
-                ommodo consequat. Duis aute irure dolor in reprehenderit i
-                n voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-                officia deserunt mollit anim id est laborum."
-            </p>
-            <p>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore 
-                magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                exercitation ullamco laboris nisi ut aliquip ex ea c
-                ommodo consequat. Duis aute irure dolor in reprehenderit i
-                n voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-                officia deserunt mollit anim id est laborum."
-            </p>
+            <div class="sectionBody">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore 
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                    exercitation ullamco laboris nisi ut aliquip ex ea c
+                    ommodo consequat. Duis aute irure dolor in reprehenderit i
+                    n voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+                    officia deserunt mollit anim id est laborum.
+                </p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore 
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                    exercitation ullamco laboris nisi ut aliquip ex ea c
+                    ommodo consequat. Duis aute irure dolor in reprehenderit i
+                    n voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+                    officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
             
         </section>
 
-        <section id="workParent">
+        <section id="workParent" class="parentDiv">
 
-            <h1>Work</h1>
+            <div class="sectionTitle">
+                <h1>Work</h1>
+            </div>
             
-            <div id="projectParent">
+            <div id="projectParent" class="sectionBody">
                 
                 <div id="mainProject">
                 </div>
@@ -83,22 +87,22 @@
         </div>
         </section>
 
-        <section id="footerParent">
+        <footer id="footerParent" class="parentDiv">
 
-            <footer>
-
+            <div class="sectionTitle">
                 <h1>Contact Me</h1>
-                
+            </div>
+
+            <div class="sectionBody">
                 <ul>
                     <li>cell</li>
                     <li>email</li>
                     <li>github</li>
                     <li>linkedin</li>
                 </ul>
-                
-            </footer>
-
-        </section>
+            </div>
+            
+        </footer>
 
     </main>  
 
