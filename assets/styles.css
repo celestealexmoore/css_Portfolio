@@ -130,7 +130,7 @@ header nav ul li a:hover{
     filter:blur(1.5px);
 }
 
-.modal {
+.modal, #mainModal {
     background-color: rgb(189, 136, 189);
     width: fit-content;
     z-index: 1;
@@ -139,17 +139,22 @@ header nav ul li a:hover{
     margin-top: 10%;
 }
 
-.projectTitle, mainProjectTitle {
+#mainModal {
+    margin-top: 45%;
+    font-size:x-large;
+}
+
+.projectTitle, #mainProjectTitle {
     font-weight: bold;
 }
 
+.techUsed, #techUsed {
+    color:rgb(86, 86, 133);
+}
 
-
-
-
-
-
-
+.singleProject {
+    margin: 10px;
+}
 
 
 #footerUl {
